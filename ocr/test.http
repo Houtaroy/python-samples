@@ -1,0 +1,10 @@
+### ocr
+POST http://127.0.0.1:5000/
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="1.png"
+Content-Type: multipart/form-data
+
+< 1.png
+--WebAppBoundary
